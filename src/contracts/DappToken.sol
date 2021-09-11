@@ -4,7 +4,7 @@ contract DappToken {
     string  public name = "DApp Token";
     string  public symbol = "DAPP";
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
-    uint8   public decimals = 18;
+    uint8   public decimals = 18; // solidity doesnt handle decimals
 
     event Transfer(
         address indexed _from,
